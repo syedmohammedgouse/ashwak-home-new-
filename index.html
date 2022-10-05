@@ -1,805 +1,1221 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A/S</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <main>
-      <header id="header">
-        <div class="overlay overlay-lg">
-          <img src="./img/shapes/square.png" class="shape square" alt="" />
-          <img src="./img/shapes/circle.png" class="shape circle" alt="" />
-          <img
-            src="./img/shapes/half-circle.png"
-            class="shape half-circle1"
-            alt=""
-          />
-          <img
-            src="./img/shapes/half-circle.png"
-            class="shape half-circle2"
-            alt=""
-          />
-          <img src="./img/shapes/x.png" class="shape xshape" alt="" />
-          <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
-          <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
-          <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
-          <img src=" class="letters" alt="" />
-          <img src="./img/shapes/points1.png" class="points points1" alt="" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHWAK SHAIK - PROFESSIONAL PHOTOGRAPHER </title>
+
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <!--favicon-img-->
+
+    <!-- SWIPER CSS LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" integrity="sha256-DBYdrj7BxKM3slMeqBVWX2otx7x4eqoHRJCsSDJ0Nxw=" crossorigin="anonymous" />
+    <!-- SWIPER CSS LINK -->
+
+    <!-- GSAP JS LINK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <!-- GSAP JS LINK -->
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS LINK -->
+
+
+</head>
+
+<body>
+
+    <!-- ALL CONTENTS -->
+
+    <main id="all">
+
+
+        <!--------------- LOADER--------------->
+
+        <div id="loader">
+
+
+            <!-- LOADER TEXT -->
+
+            <div class="loader-text-stroke"> ASHWAK&nbsp;SHAIK
+                <div class="loader-text"> ASHWAK&nbsp;SHAIK </div>
+            </div>
+            <!-- LOADER TEXT -->
+
         </div>
 
-        <nav>
-          <div class="container">
-            
+        <!--------------- LOADER --------------->
 
-            <div class="links">
-              <ul>
-                <li>
-                  <a href="#header">Home</a>
-                </li>
-                <li>
-                  <a href="#services">Services</a>
-                </li>
-                <li>
-                  <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#testimonials">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-                <li>
-                  <a href="#hireme" class="active">Hire me</a>
-                </li>
-              </ul>
-            </div>
 
-            <div class="hamburger-menu">
-              <div class="bar"></div>
-            </div>
-          </div>
-        </nav>
 
-        <div class="header-content">
-          <div class="container grid-2">
-            <div class="column-1">
-              <h1 class="header-title">ASHWAK SHAIK</h1>
-              <p class="text">
-                Hello, let me snap your smile.
-              </p>
-              <a href="#services" class="btn">Check my work.</a>
-            </div>
+        <!-- BREAKER (SCREEN THAT DISPLAYS ON LINKS CLICK) -->
 
-            <div class="column-2 image">
-              <img
-                src="./img/shapes/points2.png"
-                class="points points2"
-                alt=""
-              />
-              <img src="./img/person.png" class="img-element z-index" alt="" />
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section class="services section" id="services">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="What I Do">Services</h3>
-            <p class="text">
-              New Born -> portfolio -> pre/post wedding etc.. 
-            </p>
-          </div>
-
-          <div class="cards">
-            <div class="card-wrap">
-              <img
-                src="./img/shapes/points3.png"
-                class="points points1 points-sq"
-                alt=""
-              />
-              <div class="card" data-card="UI/UX">
-                <div class="card-content z-index">
-                  <img src="./img/design-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">New Born</h3>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                    est suscipit itaque?
-                  </p>
-                  <a href="#" class="btn small">Check here</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-wrap">
-              <div class="card" data-card="Code">
-                <div class="card-content z-index">
-                  <img src="./img/code-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">Pre Weddings</h3>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores suscipit nobis dolore?
-                  </p>
-                  <a href="./wedding/index.html" target="_blank" class="btn small">Check here</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-wrap">
-              <img
-                src="./img/shapes/points3.png"
-                class="points points2 points-sq"
-                alt=""
-              />
-              <div class="card" data-card="App">
-                <div class="card-content z-index">
-                  <img src="./img/app-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">App Development</h3>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum hic veniam nihil.
-                  </p>
-                  <a href="#" class="btn small">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="portfolio section" id="portfolio">
-        <div class="background-bg">
-          <div class="overlay overlay-sm">
-            <img
-              src="./img/shapes/half-circle.png"
-              class="shape half-circle1"
-              alt=""
-            />
-            <img
-              src="./img/shapes/half-circle.png"
-              class="shape half-circle2"
-              alt=""
-            />
-            <img src="./img/shapes/square.png" class="shape square" alt="" />
-            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
-            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
-            <img
-              src="./img/shapes/triangle.png"
-              class="shape triangle"
-              alt=""
-            />
-            <img src="./img/shapes/x.png" class="shape xshape" alt="" />
-          </div>
+        <div id="breaker">
         </div>
 
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="My works">Portfolio</h3>
-          </div>
 
-          <div class="section-body">
-            <div class="filter">
-              <button class="filter-btn active" data-filter="*">All</button>
-              <button class="filter-btn" data-filter=".ui">UI/UX</button>
-              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
-              <button class="filter-btn" data-filter=".appdev">
-                Mobile App
-              </button>
-              <button class="filter-btn" data-filter=".logo-design">
-                Logo Design
-              </button>
+        <!-- BREAKER (SCREEN THAT DISPLAYS ON LINKS CLICK) -->
+
+
+
+
+        <!--------------- CURSOR --------------->
+        <div class="cursor"></div>
+        <div class="cursor-two"></div>
+        <!-- -------------CURSOR --------------->
+
+
+
+        <!-- NAVIGATION CONTENT -->
+
+        <div id="navigation">
+
+            <!-- LOGO -->
+            <div class="logo hover navigation-opacity"> <a href="#home" class="page-link">  ASHWAK SHAIK  </a></div>
+            <!-- LOGO -->
+
+            <!-- NAVIGTAION CLOSE -->
+            <div class="navigation-close hover navigation-opacity">
+                <div class="navigation-close-line"></div>
+                <div class="navigation-close-line"></div>
+            </div>
+            <!-- NAVIGTAION CLOSE -->
+
+
+            <!-- NAVIGATION LINKS -->
+            <div class="navigation-links">
+                <ul>
+                    <li class="navigation-opacity"><a href="#home" class="page-link hover">Home</a></li>
+                    <li class="navigation-opacity"><a href="#about" class="page-link hover">About</a></li>
+                    <li class="navigation-opacity"><a href="#services" class="page-link hover">Services</a></li>
+                    <li class="navigation-opacity"><a href="#gallery" class="page-link hover">Gallery</a></li>
+                    <li class="navigation-opacity"><a href="#contact" class="page-link hover">Contact</a></li>
+                </ul>
+            </div>
+            <!-- NAVIGATION LINKS -->
+
+
+            <!-- SOCIAL MEDIA LINKS -->
+
+            <div class="social-media-links">
+                <ul>
+                    <li class="navigation-opacity"><a href="https://wa.link/pve5o7" Target="_blank" class="hover">wa/</a></li>
+                    <li class="navigation-opacity"><a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LC4wK0qKz8g1YLRSNagwTjRJNDG1tEixMDI2tDA3tjKoSEwztEwyMjFONDRJTEwxtfQSSizOKE_MVijIyC_JTy9KLMioBAAUFhaH&q=ashwak+photography&oq=ash&aqs=chrome.1.69i57j46i39i175i199j46i512j0i131i433i512j46i199i291i433i512j46i512l2j0i131i433i512.1886j0j9&client=ms-android-samsung-gs-rev1&sourceid=chrome-mobile&ie=UTF-8" Target="_blank" class="hover">Go/</a></li>
+                    <li class="navigation-opacity"><a href="https://www.instagram.com/ashwak_photography/" Target="_blank" class="hover">In</a></li>
+                </ul>
             </div>
 
-            <div class="grid">
-              <div class="grid-item logo-design">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port1.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Logo Design</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item webdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port2.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Web Development</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item ui webdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port3.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Web Design</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item ui">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port4.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>UI / UX Design</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item logo-design">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port5.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Logo Design</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item appdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port6.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>App Development</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item logo-design">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port7.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Logo Design</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item appdev ui">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port8.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>App Development</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item ui webdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port9.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Web Design</h3>
-                      <h5>View Demo</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="more-folio">
-              <a href="#" class="btn">More Folio</a>
-            </div>
-          </div>
-        </div>
-      </section>
+            <!-- SOCIAL MEDIA LINKS -->
 
-      <section class="about section" id="about">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="Who Am I">About me</h3>
-          </div>
-
-          <div class="section-body grid-2">
-            <div class="column-1">
-              <h3 class="title-sm">Hello, I'm</h3>
-              <p class="text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Praesentium distinctio doloribus quam? Ut, laudantium a dolore,
-                minima repudiandae iure iste molestiae exercitationem earum
-                neque tempora?
-              </p>
-              <div class="skills">
-                <div class="skill html">
-                  <h3 class="skill-title">HTML</h3>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="90%"></div>
-                  </div>
-                </div>
-                <div class="skill css">
-                  <h3 class="skill-title">CSS</h3>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="70%"></div>
-                  </div>
-                </div>
-                <div class="skill js">
-                  <h3 class="skill-title">JavaScript</h3>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="80%"></div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" class="btn">Read more</a>
-            </div>
-
-            <div class="column-2 image">
-              <img src="./img/shapes/points4.png" class="points" alt="" />
-              <img src="./img/about.png" class="z-index" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="records">
-        <div class="overlay overlay-sm">
-          <img src="./img/shapes/square.png" alt="" class="shape square1" />
-          <img src="./img/shapes/square.png" alt="" class="shape square2" />
-          <img src="./img/shapes/circle.png" alt="" class="shape circle" />
-          <img
-            src="./img/shapes/half-circle.png"
-            alt=""
-            class="shape half-circle"
-          />
-          <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
-          <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
-          <img src="./img/shapes/x.png" alt="" class="shape xshape" />
-          <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
         </div>
 
-        <div class="container">
-          <div class="wrap">
-            <div class="record-circle">
-              <h2 class="number" data-num="235">0</h2>
-              <h4 class="sub-title">Projects</h4>
-            </div>
-          </div>
+        <!-- NAVIGATION CONTENT -->
 
-          <div class="wrap">
-            <div class="record-circle active">
-              <h2 class="number" data-num="174">0</h2>
-              <h4 class="sub-title">Happy Clients</h4>
-            </div>
-          </div>
 
-          <div class="wrap">
-            <div class="record-circle">
-              <h2 class="number" data-num="892">0</h2>
-              <h4 class="sub-title">Work Hour</h4>
-            </div>
-          </div>
 
-          <div class="wrap">
-            <div class="record-circle">
-              <h2 class="number" data-num="368">0</h2>
-              <h4 class="sub-title">Awards</h4>
+        <!--------------------- HOME PAGE --------------------->
+
+        <div id="home">
+
+            <!-- HOME CONTENTS -->
+
+            <div id="home-contents">
+
+
+
+                <!-- NAVIGATION BAR -->
+                <div class="navigation-bar">
+
+                    <!-- LOGO -->
+                    <div class="logo"> <a href="#home" class="page-link hover">  ASHWAK SHAIK  </a></div>
+                    <!-- LOGO -->
+
+
+                    <!-- MENUBAR -->
+                    <div class="menu-bar hover">
+                        <div class="menu-bar-text">
+                            <a href="#">Menu</a>
+                        </div>
+
+                        <div class="menu-bar-line-container">
+                            <span class="menu-bar-line"></span>
+                            <span class="menu-bar-line"></span>
+                        </div>
+
+                    </div>
+                    <!-- MENUBAR -->
+
+                </div>
+                <!-- NAVIGATION BAR -->
+
+
+
+
+
+
+                <!-- SLIDER -->
+                <div class="swiper-container parallax-slider">
+                    <div class="swiper-wrapper">
+
+
+                        <!-- IMAGE -->
+                        <div class="swiper-slide">
+                            <div class="img-container">
+                                <a href="#gallery" class="page-link">
+                                <img src="./images/home-portrait.jpg" alt="portrait-main-image" class="home-images"> <!--INSERT YOUR IMAGE HERE-->
+                               </a>
+                            </div>
+                            <div class="image-type">PORTRAIT</div>
+                        </div>
+                        <!-- IMAGE -->
+
+                        <!-- IMAGE -->
+                        <div class="swiper-slide">
+
+                            <div class="img-container">
+                                <a href="#gallery" class="page-link ">
+                                <img src="images/home-wedding.jpg" alt="wedding-main-image" class="home-images"> <!--INSERT YOUR IMAGE HERE-->
+                                </a>
+                            </div>
+                            <div class="image-type">WEDDING</div>
+                        </div>
+                        <!-- IMAGE -->
+
+
+
+
+                        <!-- IMAGE -->
+                        <div class="swiper-slide">
+
+                            <div class="img-container">
+                                <a href="#gallery" class="page-link ">
+                                <img src="images/prewed/1_18580-1-01.jpeg" alt="wedding-main-image" class="home-images"> <!--INSERT YOUR IMAGE HERE-->
+                                </a>
+                            </div>
+                            <div class="image-type">pre&post wedding</div>
+                        </div>
+                        <!-- IMAGE -->
+
+
+
+
+
+                        <!-- IMAGE -->
+                        <div class="swiper-slide">
+                            <div class="img-container">
+                                <a href="#gallery" class="page-link">
+                                <img src="images/newborn/1_0894-1.jpg" alt="New-Born-main-image" class="home-images"> <!--INSERT YOUR IMAGE HERE-->
+                                </a>
+                            </div>
+                            <div class="image-type">NEW BORN</div>
+                        </div>
+                        <!-- IMAGE -->
+
+
+
+
+                        
+
+
+
+
+                        <!-- IMAGE -->
+                        <div class="swiper-slide">
+                            <div class="img-container">
+                                <a href="#gallery" class="page-link">
+                                <img src="images/home-nature.jpg" alt="nature-main-image" class="home-images"> <!--INSERT YOUR IMAGE HERE-->
+                                </a>
+                            </div>
+                            <div class="image-type">ALBUM</div>
+                        </div>
+                        <!-- IMAGE -->
+
+                    </div>
+
+
+                    <!-- PAGINATION -->
+
+                    <div class="swiper-pagination">
+
+                    </div>
+
+                    <!-- PAGINATION -->
+
+
+                </div>
+                <!-- SLIDER -->
+
+
+                <!-- ABOUT LINK -->
+                <div class="about-link hover">
+                    <a href="#about" class="hover page-link">
+                    ABOUT
+                 </a>
+                </div>
+                <!-- ABOUT LINK -->
+
+
             </div>
-          </div>
+
+
+            <!-- HOME CONTENTS --->
+
+
         </div>
-      </section>
 
-      <section class="blog section">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="Last News">My blog</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo,
-              deserunt?
-            </p>
-          </div>
+        <!--------------------- HOME PAGE --------------------->
 
-          <div class="blog-wrapper">
-            <div class="blog-wrap">
-              <img
-                src="./img/shapes/points3.png"
-                alt=""
-                class="points points-sq"
-              />
 
-              <div class="blog-card">
-                <div class="blog-image">
-                  <img src="./img/blog1.png" alt="" />
+
+
+
+        <!-------------------- ABOUT PAGE  ------------------->
+
+
+        <div id="about">
+
+
+
+            <!-- ABOUT CONTENTS -->
+            <div id="about-contents">
+
+                <!-- NAVIGATION BAR -->
+                <div class="navigation-bar">
+
+                    <!-- LOGO -->
+                    <div class="logo"> <a href="#home" class="page-link hover">  ASHWAK SHAIK  </a></div>
+                    <!-- LOGO -->
+
+
+                    <!-- MENUBAR -->
+                    <div class="menu-bar hover">
+                        <div class="menu-bar-text">
+                            <a href="#">Menu</a>
+                        </div>
+
+                        <div class="menu-bar-line-container">
+                            <span class="menu-bar-line"></span>
+                            <span class="menu-bar-line"></span>
+                        </div>
+
+                    </div>
+                    <!-- MENUBAR -->
+
+                </div>
+                <!-- NAVIGATION BAR -->
+
+
+
+
+                <!-- ABOUT MAIN CONTENTS -->
+
+                <div class="about-main-contents">
+
+
+
+
+                    <!-- ABOUT IMAGE -->
+                    <div class="about-image">
+                        <div class="about-img-container">
+                            <div class="about-image-back"></div>
+                            <img src="images/about-image-two.jpg" alt="about image">
+                            <!--ADD YOUR IMAGE HERE-->
+                        </div>
+                    </div>
+                    <!-- ABOUT IMAGE -->
+
+
+                    <!-- ABOUT INFO -->
+                    <div class="about-info">
+
+                        <div class="heading">
+                            Your Photographer Search ends here.
+                        </div>
+
+                        <div class="paragraph">
+                            Hi, I am a Passionate Photographer based in Andhra Pradesh. 
+                        </div>
+
+                        <div class="paragraph">
+                            You can check my Insta-profile <a href ="https://www.instagram.com/ashwak_photography/" target="_blank"> tap here ->Instagram </a> and call me at 6301658390 .
+
+                        </div>
+
+                        <div class="about-call-to-action">
+
+                        </div>
+
+                        <div class="cv-button">
+                            <a href="https://api.whatsapp.com/send?phone=919581100820&text=hey%20I%20came%20across%20your%20stunning%20website%2C%20Can%20we%20have%20a%20talk%3F" Whatsapp me="ASHWAK SHAIK - CV" class="hover">Whatsapp me.</a>
+                        </div>
+
+                    </div>
+
+                    <!-- ABOUT INFO -->
+
+
                 </div>
 
-                <div class="blog-content">
-                  <div class="blog-info">
-                    <h5 class="blog-date">March, 19 2020</h5>
-                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
-                  </div>
-                  <h3 class="title-sm">This is a short title</h3>
-                  <p class="blog-text">
-                    Lorem ipsum, dolor sit amet elit. rem poimus? Tempora
-                    expedita eos autem! Lorem ipsum, dolor sit met.
-                  </p>
-                  <a href="#" class="btn small">Read more</a>
-                </div>
-              </div>
+
+                <!-- ABOUT MAIN CONTENTS -->
+
+
+
             </div>
+            <!-- ABOUT CONTENTS -->
 
-            <div class="blog-wrap">
-              <div class="blog-card">
-                <div class="blog-image">
-                  <img src="./img/blog2.png" alt="" />
-                </div>
 
-                <div class="blog-content">
-                  <div class="blog-info">
-                    <h5 class="blog-date">August, 02 2020</h5>
-                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
-                  </div>
-                  <h3 class="title-sm">This is a short title</h3>
-                  <p class="blog-text">
-                    Lorem ipsum, dolor sit amet elit. Sint atque culpa repellat
-                    sunt sit amet nobis! Lorem ipsum dolor sit amet.
-                  </p>
-                  <a href="#" class="btn small">Read more</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="blog-wrap">
-              <div class="blog-card">
-                <div class="blog-image">
-                  <img src="./img/blog3.png" alt="" />
-                </div>
-
-                <div class="blog-content">
-                  <div class="blog-info">
-                    <h5 class="blog-date">December, 12 2020</h5>
-                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
-                  </div>
-                  <h3 class="title-sm">This is a short title</h3>
-                  <p class="blog-text">
-                    Lorem ipsum dolor sit, amet elit. enim numquam, laborum
-                    earum? Lorem ipsum dolor sit amet.
-                  </p>
-                  <a href="#" class="btn small">Read more</a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
 
-      <section class="testimonials section" id="testimonials">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="What People Say">Testimonials</h3>
-          </div>
+        <!-------------------- ABOUT PAGE  ------------------->
 
-          <div class="testi-content grid-2">
-            <div class="column-1 reviews">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide review">
-                    <i class="fas fa-quote-left quote"></i>
-                    <div class="rate">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
+
+
+
+
+        <!-------------------- GALLERY PAGE  ------------------->
+
+        <div id="gallery">
+
+            <!-- GALLERY CONTENT -->
+            <div id="gallery-content">
+
+                <!-- NAVIGATION BAR -->
+                <div class="navigation-bar">
+
+                    <!-- LOGO -->
+                    <div class="logo"> <a href="#home" class="page-link hover">  ASHWAK SHAIK  </a></div>
+                    <!-- LOGO -->
+
+
+                    <!-- MENUBAR -->
+                    <div class="menu-bar hover">
+                        <div class="menu-bar-text">
+                            <a href="#">Menu</a>
+                        </div>
+
+                        <div class="menu-bar-line-container">
+                            <span class="menu-bar-line"></span>
+                            <span class="menu-bar-line"></span>
+                        </div>
+
                     </div>
+                    <!-- MENUBAR -->
 
-                    <p class="review-text">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Laudantium adipisci veniam debitis quas, sapiente
-                      repellendus mollitia. Laboriosam labore voluptate quos?
-                    </p>
+                </div>
+                <!-- NAVIGATION BAR -->
 
-                    <div class="review-info">
-                      <h3 class="review-name">Matias Butt</h3>
-                      <h5 class="review-job">Photographer, Paris</h5>
+
+
+                <!-- GALLERY HEADER CONTENTS -->
+
+                <div class="gallery-header-content">
+
+
+                    <!-- IMAGE SELECTION BUTTONS -->
+                    <div class="image-selector">
+                        <a href="#" class="image-sort-button hover active" data-sort="all">All</a>
+                        <a href="#" class="image-sort-button hover" data-sort="portrait">Portrait</a>
+                        <a href="#" class="image-sort-button hover" data-sort="wedding">Wedding</a>
+                        <a href="#" class="image-sort-button hover" data-sort="prewed">Pre/Post Wed</a>
+                        <a href="#" class="image-sort-button hover" data-sort="New-Born">New Born</a>
+                        <a href="#" class="image-sort-button hover" data-sort="nature">Album</a>
+                        
                     </div>
-                  </div>
+                    <!-- IMAGE SELECTION BUTTONS -->
 
-                  <div class="swiper-slide review">
-                    <i class="fas fa-quote-left quote"></i>
-                    <div class="rate">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-
-                    <p class="review-text">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Fugiat voluptate consequatur aut tenetur fugit error
-                      molestiae quaerat ex odio rem?
-                    </p>
-
-                    <div class="review-info">
-                      <h3 class="review-name">Romeo Herbert</h3>
-                      <h5 class="review-job">CEO, Munich</h5>
-                    </div>
-                  </div>
-
-                  <div class="swiper-slide review">
-                    <i class="fas fa-quote-left quote"></i>
-                    <div class="rate">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-
-                    <p class="review-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cupiditate voluptatum enim nemo quod amet dolorum aliquam,
-                      sapiente omnis eaque consectetur.
-                    </p>
-
-                    <div class="review-info">
-                      <h3 class="review-name">Jack Costa</h3>
-                      <h5 class="review-job">Director of THR, London</h5>
-                    </div>
-                  </div>
-
-                  <div class="swiper-slide review">
-                    <i class="fas fa-quote-left quote"></i>
-                    <div class="rate">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-
-                    <p class="review-text">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Perspiciatis ab incidunt, dicta quam inventore ipsum
-                      dolor. Consectetur nam incidunt error!
-                    </p>
-
-                    <div class="review-info">
-                      <h3 class="review-name">Reiss Mccartney</h3>
-                      <h5 class="review-job">Engineer, San Francisco</h5>
-                    </div>
-                  </div>
                 </div>
 
-                <div class="review-nav swiper-button-prev">
-                  <i class="fas fa-long-arrow-alt-left"></i>
+                <!-- GALLERY HEADER CONTENTS -->
+
+
+
+                <!-- IMAGES CONTAINER -->
+                <div class="gallery-images-container">
+
+                    <!-- GRID CONTAINER -->
+                    <div class="gallery-grid">
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/home-portrait.jpg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                      
+
+                      
+
+               
+                       
+
+                        
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_0816-1.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+
+
+
+
+
+
+
+                       
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/portrait-pic-two.jpg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        
+
+                        
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/portrait-pic-three.jpg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_0850-1.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_0854-1.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                            <!-- COLUMN -->
+                            <div class="column">
+                                <img src="images/newborn/1_0889-1.jpg" alt="New-Born" class="gallery-img">
+                            </div>
+                            <!-- COLUMN -->
+
+                                <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_0894-1.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                            <!-- COLUMN -->
+                            <div class="column">
+                                <img src="images/newborn/1_0914-1.jpg" alt="New-Born" class="gallery-img">
+                            </div>
+                            <!-- COLUMN -->
+
+                                <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_0929-1.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                            <!-- COLUMN -->
+                            <div class="column">
+                                <img src="images/newborn/1_1088.jpg" alt="New-Born" class="gallery-img">
+                            </div>
+                            <!-- COLUMN -->
+
+                                <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_1091.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                            <!-- COLUMN -->
+                            <div class="column">
+                                <img src="images/newborn/1_1117.jpg" alt="New-Born" class="gallery-img">
+                            </div>
+                            <!-- COLUMN -->
+
+                                <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_1167-1.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                            <!-- COLUMN -->
+                            <div class="column">
+                                <img src="images/newborn/1_1255-1.jpg" alt="New-Born" class="gallery-img">
+                            </div>
+                            <!-- COLUMN -->
+
+
+
+
+
+
+
+
+
+
+                       
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/portrait-pic-five.jpg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                      
+
+                       
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/newborn/1_0844-1.jpg" alt="New-Born" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="images/portrait-pic-four.jpg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                       
+
+
+                          <!-- COLUMN -->
+                          <div class="column">
+                            <img src="./images/portrait/pp.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                         <!-- COLUMN -->
+                         <div class="column">
+                            <img src="./images/portrait/pp.jpg_02.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_03.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_04.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0356-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0362 2-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0378-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0384-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0388-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0390-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0400-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0402-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0405-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0414-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0421-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0455-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0460-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0473-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0495-1 (1)-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0513-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0573-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/portrait/pp.jpg_0581-1-01.jpeg" alt="portrait" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_17775-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_17792-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_17798-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_17830-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_17851-1-03.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                          <!-- COLUMN -->
+                          <div class="column">
+                            <img src="./images/prewed/1_17851222222-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                          <!-- COLUMN -->
+                          <div class="column">
+                            <img src="./images/prewed/1_17894-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_17958-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_17996-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_18035-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_18042-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_18049-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_18550-1-01-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_18550-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        <!-- COLUMN -->
+                        <div class="column">
+                            <img src="./images/prewed/1_18580-1-01.jpeg" alt="prewed" class="gallery-img">
+                        </div>
+                        <!-- COLUMN -->
+
+                        
+
+
+
+
+
+
+
+
+                    </div>
+                    <!-- GRID CONTAINER -->
+
+
                 </div>
-                <div class="review-nav swiper-button-next">
-                  <i class="fas fa-long-arrow-alt-right"></i>
+                <!-- IMAGES CONTAINER -->
+
+                <div class="copyright">
+                    All Images © 2021-2022 ASHWAK SHAIK
                 </div>
-              </div>
+
+
             </div>
+            <!-- GALLERY CONTENT -->
 
-            <div class="column-2 image">
-              <img src="./img/testi.png" alt="" class="img-element" />
-            </div>
-          </div>
+
+
         </div>
-      </section>
 
-      <section class="contact" id="contact">
-        <div class="container">
-          <div class="contact-box">
-            <div class="contact-info">
-              <h3 class="title">Get in touch</h3>
-              <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                rerum odio incidunt doslorum officia dolorem eaque aprim?
-              </p>
-              <div class="information-wrap">
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-map-marker-alt"></i>
-                  </div>
-                  <p class="info-text">92 Cherry Drive Unimodale, NY 11553</p>
+        <!-------------------- GALLERY PAGE  ------------------->
+
+
+
+
+
+        <!-------------------- SERVICES PAGE  -------------------->
+
+        <div id="services">
+
+            <!-- SERVICES CONTENT -->
+            <div id="services-content">
+
+                <!-- NAVIGATION BAR -->
+                <div class="navigation-bar">
+
+                    <!-- LOGO -->
+                    <div class="logo"> <a href="#home" class="page-link hover">  ASHWAK SHAIK  </a></div>
+                    <!-- LOGO -->
+
+
+                    <!-- MENUBAR -->
+                    <div class="menu-bar hover">
+                        <div class="menu-bar-text">
+                            <a href="#">Menu</a>
+                        </div>
+
+                        <div class="menu-bar-line-container">
+                            <span class="menu-bar-line"></span>
+                            <span class="menu-bar-line"></span>
+                        </div>
+
+                    </div>
+                    <!-- MENUBAR -->
+
+                </div>
+                <!-- NAVIGATION BAR -->
+
+
+
+                <!-- SERVICES MAIN CONTENT -->
+
+                <div class="services-main-content">
+
+                    <!-- SERVICES HEADING -->
+                    <div class="services-heading">
+                        Services I Offer.
+                    </div>
+                    <!-- SERVICES HEADING -->
+
+
+                    <!-- SERVICES FLEX -->
+                    <div class="services-flex">
+
+                        <!-- SERVICE -->
+                        <div class="service">
+
+                            <!-- SERVICE IMG -->
+                            <div class="service-img">
+
+                                <div class="service-img-main">
+
+                                    <img src="images/prewed/1_17851222222-1-01.jpeg" alt="services-wedding">
+
+                                </div>
+
+                            </div>
+                            <!-- SERVICE IMG -->
+
+
+
+                            <!-- SERVICE INFO -->
+                            <div class="service-info">
+
+                                <div class="service-type-number">01</div>
+                                <div class="service-type-heading">WEDDING SHOOT</div>
+                                <div class="service-type-para">
+                                   From pre wedding to post wedding candids/teaser/albums.
+                                </div>
+                                <div class="service-type-price">
+                                    Starting from <span class="highlight">Negotiable call(6301658390)</span>
+                                </div>
+
+
+                            </div>
+                            <!-- SERVICE INFO -->
+
+
+                        </div>
+                        <!-- SERVICE -->
+
+
+
+
+                        <!-- SERVICE -->
+                        <div class="service">
+
+                            <!-- SERVICE IMG -->
+                            <div class="service-img">
+
+                                <div class="service-img-main">
+
+                                    <img src="images/newborn/1_0854-1.jpg" alt="New-Born">
+
+                                </div>
+
+                            </div>
+                            <!-- SERVICE IMG -->
+
+
+
+                            <!-- SERVICE INFO -->
+                            <div class="service-info">
+
+                                <div class="service-type-number">02</div>
+                                <div class="service-type-heading">NEW BORN</div>
+                                <div class="service-type-para">
+                                   Newborn/candids/teasers/cakesmash/albums.
+                                </div>
+                                <div class="service-type-price">
+                                    Starting from <span class="highlight">Negotiable call(6301658390)</span>
+                                </div>
+
+
+                            </div>
+                            <!-- SERVICE INFO -->
+
+
+                        </div>
+                        <!-- SERVICE -->
+
+
+
+
+                        <!-- SERVICE -->
+                        <div class="service">
+
+                            <!-- SERVICE IMG -->
+                            <div class="service-img">
+
+                                <div class="service-img-main">
+
+                                    <img src="images/portrait-pic-five.jpg" alt="services-portrait">
+
+                                </div>
+
+                            </div>
+                            <!-- SERVICE IMG -->
+
+
+
+                            <!-- SERVICE INFO -->
+                            <div class="service-info">
+
+                                <div class="service-type-number">03</div>
+                                <div class="service-type-heading">PORTRAIT SHOOT</div>
+                                <div class="service-type-para">
+                                    HeadShots/portraits/candids/albums.
+                                </div>
+                                <div class="service-type-price">
+                                    Starting from <span class="highlight">Negotiable call(6301658390)</span>
+                                </div>
+
+
+                            </div>
+                            <!-- SERVICE INFO -->
+
+
+                        </div>
+                        <!-- SERVICE -->
+
+
+
+
+                        <!-- SERVICE -->
+                        <div class="service">
+
+                            <!-- SERVICE IMG -->
+                            <div class="service-img">
+
+                                <div class="service-img-main">
+
+                                    <img src="images/newborn/1_0894-1.jpg" alt="services-New-Born">
+
+                                </div>
+
+                            </div>
+                            <!-- SERVICE IMG -->
+
+
+
+                            <!-- SERVICE INFO -->
+                            <div class="service-info">
+
+                                <div class="service-type-number">04</div>
+                                <div class="service-type-heading">Albums</div>
+                                <div class="service-type-para">
+                                    Weddings albums/Pre-post Weddings albums.
+                                </div>
+                                <div class="service-type-price">
+                                    Starting from <span class="highlight">Negotiable call(6301658390)</span>
+                                </div>
+
+
+                            </div>
+                            <!-- SERVICE INFO -->
+
+
+                        </div>
+                        <!-- SERVICE -->
+
+
+
+
+                    </div>
+                    <!-- SERVICES FLEX -->
+
+
+
                 </div>
 
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-paper-plane"></i>
-                  </div>
-                  <p class="info-text">lorem@ipsum.com</p>
+                <!-- SERVICES MAIN CONTENT -->
+
+
+            </div>
+            <!-- SERVICES CONTENT -->
+
+
+        </div>
+
+
+        <!-------------------- SERVICES PAGE  -------------------->
+
+
+
+
+
+        <!-------------------- CONTACT PAGE  -------------------->
+
+        <div id="contact">
+
+
+            <!-- CONTACT CONTENT -->
+            <div id="contact-content">
+
+
+
+                <!-- NAVIGATION BAR -->
+                <div class="navigation-bar">
+
+                    <!-- LOGO -->
+                    <div class="logo"> <a href="#home" class="page-link hover">  ASHWAK SHAIK  </a></div>
+                    <!-- LOGO -->
+
+
+                    <!-- MENUBAR -->
+                    <div class="menu-bar hover">
+                        <div class="menu-bar-text">
+                            <a href="#">Menu</a>
+                        </div>
+
+                        <div class="menu-bar-line-container">
+                            <span class="menu-bar-line"></span>
+                            <span class="menu-bar-line"></span>
+                        </div>
+
+                    </div>
+                    <!-- MENUBAR -->
+
+                </div>
+                <!-- NAVIGATION BAR -->
+
+
+                <div class="contact-heading">
+                    CONTACT ME
                 </div>
 
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-phone-alt"></i>
-                  </div>
-                  <p class="info-text">123-456-789</p>
+
+                <!-- CONTACT FLEX -->
+
+                <div class="contact-flex">
+
+                    <!-- CONTACT FORM CONTAINER -->
+                    <div class="contact-form-container">
+
+
+                        <form action="mail.php">
+
+                            <!-- CONTACT FORM HEADING -->
+                            <div class="contact-form-heading">
+                                Hello, Let's Get in Touch.
+                            </div>
+                            <!-- CONTACT FORM HEADING -->
+
+                           
+
+                        </form>
+
+                    </div>
+                    <!-- CONTACT FORM CONTAINER -->
+
+
+                    <div class="contact-info">
+
+                        <div class="contact-info-content">
+                            <span class="highlight"> Address<br></span> Chirala , Perala<br> Andhra Pradesh, <br> 523155
+                        </div>
+
+                        <div class="contact-info-content">
+                            <span class="highlight">Call me @<br></span> 6301658390<br>
+                            <u><a href="https://api.whatsapp.com/send?phone=919581100820&text=hey%20I%20came%20across%20your%20stunning%20website%2C%20Can%20we%20have%20a%20talk%3F" target="_blank" class="hover">Whatsapp me here.</a></u>
+                        </div>
+
+                        <div class="contact-info-content">
+                            <span class="highlight">Social<br></span>
+                            <ul>
+                                <li> <u><a href="https://www.instagram.com/ashwak_photography/" target="_blank" class="hover">Instagram /</a> </u></li>
+                                <li> <u> <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LC4wK0qKz8g1YLRSNagwTjRJNDG1tEixMDI2tDA3tjKoSEwztEwyMjFONDRJTEwxtfQSSizOKE_MVijIyC_JTy9KLMioBAAUFhaH&q=ashwak+photography&oq=ash&aqs=chrome.1.69i57j46i39i175i199j46i512j0i131i433i512j46i199i291i433i512j46i512l2j0i131i433i512.1886j0j9&client=ms-android-samsung-gs-rev1&sourceid=chrome-mobile&ie=UTF-8" target="_blank" class="hover">Google /</a> </u></li>
+                                
+                            </ul>
+
+                        </div>
+
+                    </div>
+
                 </div>
-              </div>
+
+                <!-- CONTACT FLEX -->
+
+
+
+
             </div>
 
-            <div class="contact-form">
-              <h3 class="title">Contact me</h3>
-              <div class="row">
-                <input
-                  type="text"
-                  class="contact-input"
-                  placeholder="First Name"
-                />
-                <input
-                  type="text"
-                  class="contact-input"
-                  placeholder="Last Name"
-                />
-              </div>
+            <!-- CONTACT CONTENT -->
 
-              <div class="row">
-                <input type="text" class="contact-input" placeholder="Phone" />
-                <input type="email" class="contact-input" placeholder="Email" />
-              </div>
 
-              <div class="row">
-                <textarea
-                  name="message"
-                  class="contact-input textarea"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-              <a href="#" class="btn">Send</a>
-            </div>
-          </div>
         </div>
-      </section>
 
-      <section class="hireme" id="hireme">
-        <div class="container">
-          <h3 class="title">Let's talk about a project</h3>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
-            culpa. Commodi suscipit animi officia dignissimos unde, ipsum fugiat
-            consequuntur, fugit ratione vel aperiam, similique distinctio
-            mollitia repellendus quasi rem vero!
-          </p>
-          <a href="#" class="btn">Hire me</a>
-        </div>
-      </section>
+        <!-------------------- CONTACT PAGE  -------------------->
+
+
+
+
+
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="grid-4">
-          <div class="grid-4-col footer-about">
-            <h3 class="title-sm">About</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              officiis quo officia quia?
-            </p>
-          </div>
+    <!-- ALL CONTENTS -->
 
-          <div class="grid-4-col footer-links">
-            <h3 class="title-sm">Links</h3>
-            <ul>
-              <li>
-                <a href="#services">Services</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#testimonials">Testimonials</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js" integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4=" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/masonry.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/index.js"></script>
 
-          <div class="grid-4-col footer-links">
-            <h3 class="title-sm">Services</h3>
-            <ul>
-              <li>
-                <a href="#">Web Design</a>
-              </li>
-              <li>
-                <a href="#">Web Dev</a>
-              </li>
-              <li>
-                <a href="#">App Design</a>
-              </li>
-              <li>
-                <a href="#">Marketing</a>
-              </li>
-              <li>
-                <a href="#">UI Design</a>
-              </li>
-            </ul>
-          </div>
 
-          <div class="grid-4-col footer-newstletter">
-            <h3 class="title-sm">Subscribe</h3>
-            <p class="text">
-              Lorem ipsum dolor, sit amet ipsum dolor sit amet.
-            </p>
-            <div class="footer-input-wrap">
-              <input type="email" class="footer-input" placeholder="Email" />
-              <a href="#" class="input-arrow">
-                <i class="fas fa-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+</body>
 
-        <div class="bottom-footer">
-          <div class="copyright">
-            <p class="text">
-              Copyright&copy;2020 All rights reserved | Made by
-              <span>True Coder</span>
-            </p>
-          </div>
-
-          <div class="followme-wrap">
-            <div class="followme">
-              <h3>Follow me</h3>
-              <span class="footer-line"></span>
-              <div class="social-media">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="back-btn-wrap">
-              <a href="#" class="back-btn">
-                <i class="fas fa-chevron-up"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./js/isotope.pkgd.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/app.js"></script>
-  </body>
 </html>
